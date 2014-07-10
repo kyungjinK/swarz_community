@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+body { 
+	margin:0; 
+	padding:0; 
+}
+
+.png24 {tmp:expression(setPng24(this));}
+
+/* reset style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {color:#444;}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: ”;
+content: none;
+}
+select{font:12px dotum;padding:1px 0}/* */
+
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+.ins {
+text-decoration: none;
+}
+.del {
+text-decoration: line-through;
+}
+
+/* tables still need ‘cellspacing=”0″‘ in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+} 
+
+.cur {cursor: pointer}
+
+/* common style */
+.box{*zoom:1;position:relative;}
+.box:after{content:"";display:block;clear:both;}
+.tab_unit {position:absolute;right:0;top:8px;font:11px dotum;color:#6D4D00}
+.unit {font:11px dotum;color:#6D4D00}
+.unit em{font:12px dotum;}
+
+.of {overflow:hidden;}
+.clear {clear:both;}
+.clear:after {display:block; clear:both; content:" "; width:0; height:0; line-height:0; font-size:0; overflow:hidden; visibility:hidden;}
+
+.fl {float:left;}
+.fr {float:right;}
+.cl {clear:both;}
+
+.al{text-align:left !important;}
+.ac{text-align:center !important;}
+.ar{text-align:right !important;}
+
+.ls{letter-spacing:-1px;}
+
+/* 2012-07-12 변만복 */
+.pd10{padding:10px !important;}
+.mg10{margin:10px !important;}
+
+.pt5{padding-top:5px !important;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+
+.pb0{padding-bottom:0px !important;}
+.pb5{padding-bottom:5px !important;}
+.pb10{padding-bottom:10px !important;}
+.pb15{padding-bottom:15px !important;}
+
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px}
+.pl17{padding-left:17px !important;}
+.pl20{padding-left:20px !important;}
+.pl25{padding-left:25px;}
+.pl45{padding-left:25px;}
+.pl56{padding-left:56px;}
+
+.pr15{padding-right:15px;}
+.pr10{padding-right:10px;}
+
+.mt1{margin-top:1px;}
+.mt2{margin-top:2px;}
+.mt3{margin-top:3px !important}
+.mt4{margin-top:4px;}
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt18{margin-top:18px}
+.mt20{margin-top:20px}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+
+
+.mb1{margin-bottom:1px !important}
+.mb2{margin-bottom:2px}
+.mb5{margin-bottom:5px !important}
+.mb7{margin-bottom:7px !important}
+.mb8{margin-bottom:8px !important}
+.mb10{margin-bottom:10px !important}
+.mb15{margin-bottom:15px !important}
+.mb20{margin-bottom:20px !important}
+.mb25{margin-bottom:25px !important}
+.mb28{margin-bottom:28px !important}
+.mb30{margin-bottom:30px !important}
+.mb35{margin-bottom:35px !important;}
+.mb50{margin-bottom:50px !important;}
+
+.ml1{margin-left:1px}
+.ml3{margin-left:3px}
+.ml5{margin-left:5px}
+.ml10{margin-left:10px}
+.ml15{margin-left:15px !important;}
+.ml17{margin-left:17px !important;}
+.ml20{margin-left:20px !important;}
+.ml30{margin-left:30px !important;}
+.ml40{margin-left:40px !important;}
+.ml120{margin-left:120px !important;}
+
+.mr3 {margin-right:3px !important;}
+.mr10 {margin-right:10px !important;}
+.mr45 {margin-right:45px !important;}
+.mr20 {margin-right:20px !important;}
+.mr80 {margin-right:80px !important;}
+.mr210 {margin-right:210px !important;}
+
+.dis_n{display:none;}
+.dis_b{display:block;}
+.dis_ib{display:inline-block;}
+
+.desc{margin-bottom:5px;font:12px/1.3 dotum;color:#D66A00;}
+
+.f_44{color:#444 !important;}
+.f_77{color:#777 !important;}
+.f_rd{color:#C40300 !important;}
+.f_rd a{color:#C40300 !important;}
+.f_bl{color:#003986 !important;}
+.f_bl a{color:#003986 !important;}
+.f_gold{color:#A87D2A;}
+
+.col_rd{background:#F5E9E3 !important;}
+.col_bl{background:#E9EEF5 !important;}
+.col_gd{background:#F3EED1 !important;}
+.vat{vertical-align:top !important;}
+.vam{vertical-align:middle !important;}
+.vm{vertical-align:middle !important;}
+
+.b{font-weight:bold !important;}
+.bg_none{background:none !important;}
+
+.bt_none{border-top:0 !important;}
+.of{overflow:hidden;}
+.ps_r{position:relative;}
+
