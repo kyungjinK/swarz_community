@@ -19,7 +19,7 @@ public class MainController {
 	public String test(Locale locale, Model model)
 	{
 		System.out.println("Welcome home! the client locale is "+ locale.toString());
-		
+		logger.info("Welcome home! the client locale is");
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
